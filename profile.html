@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Profile Vyra</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        
+        body {
+            color: white;
+            background-color:  #B0C6CE;
+            min-width: 450px;
+            max-width: 760px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        header {
+            display: inline;
+        }
+
+        nav {
+            background-color: #B0C6CE;
+            padding: 5px;
+            position: sticky;
+            top: 0px;
+        }
+
+        #logo {
+            margin: 0px 20px;
+        }
+
+        h1 {
+            color: #A9FBD7;
+        }
+
+        h1 span {
+            color:#938BA1;
+        }
+
+        section {
+            margin: 20px;            
+        }
+        
+        #head {
+            margin: 20px 0px;
+        }
+        table {
+            width: 100%;
+            border: 1px solid #938BA1;
+        }
+
+        th, 
+        td {
+            text-align: left; 
+            border: 0px solid #938BA1;
+            padding: 5px;
+        }
+        
+        .photo {
+            width: 120px;
+            padding: initial;
+        }
+
+        img {
+            width: 150px;
+            display: block;
+            margin: 0px auto;
+        }
+        
+        #pribadi th,
+        #kontak th {
+            width: 30%;
+        }
+
+        .title {
+            width: initial;
+            color: #B0C6CE;
+            background-color: #680E4B;
+            font-size: 20px;            
+        }
+
+        tr:nth-child(even){
+            color:#E9F1F7;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-weight: bolder;
+        }
+
+        td .even{
+            color: #E9F1F7;
+        }
+
+        a,
+        td .odd {
+            color: #E9F1F7;
+        }
+
+        #foot {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <p><a href=#><b>Hello!</b></a></p>                
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1 align="center" >MY <span >PROFILE</span></h1>
+        <hr width="90px" color="white" noshade>
+        <section id="pribadi">
+            <table >
+                <tr >
+                    <th class="title" colspan="3"><center>Data Diri</center></th>
+                </tr>
+                <tr >
+                    <th >Name</th>
+                    <td >Vyra Fania Adelina</td>
+                    <td class="photo" rowspan="6">
+                        <img src="image/me.jpg" alt="foto">
+                    </td>
+                </tr>
+                <tr >
+                    <th >Date of Birth</th>
+                    <td >Surabaya, 26 April 2001</td>
+                </tr>
+                <tr >
+                    <th >Gender</th>
+                    <td >Female</td>
+                </tr>
+                <tr >
+                    <th >Pronouns</th>
+                    <td >She/Her</td>
+                </tr>
+                <tr >
+                    <th >Religion</th>
+                    <td >Islam</td>
+                </tr>
+                <tr >
+                    <th >Blood Type</th>
+                    <td colspan="2">O</td>
+                </tr>
+                <tr >
+                    <th >Address</th>
+                    <td colspan="2">Jl. Pecatu E11/7, PuriMas, Surabaya</td>
+                </tr>
+                <tr >
+                    <th >Status</th>
+                    <td colspan="2">Single</td>
+                </tr>
+                <tr >
+                    <th >Occupation</th>
+                    <td colspan="2">Mahasiswa</td>
+                </tr>
+                <tr >
+                    <th >Nationality</th>
+                    <td colspan="2">Indonesia</td>
+                </tr>
+                <!-- <tr >
+                    <th >Hobi</th>
+                    <td colspan="2">-</td>
+                </tr> -->
+            </table>
+        </section>
+        <section id="edu">
+            <table>
+                <tr >
+                    <th class="title" colspan="4"><center>Education</center></th>
+                </tr>
+                <tr style="background-color:#938BA1; color: #B2E4DB;">
+                    <th><center>Year</center></th>
+                    <th><center>Degree</center></th>
+                    <th><center>Institution</center></th>
+                    <th><center>Field of Study</center></th>
+                </tr>
+                <tr>
+                    <td><center>2016-2019</center></td>
+                    <td><center>Graduate</center></td>
+                    <td>SMA Al-Hikmah Surabaya</td>
+                    <td>Science</td>
+                </tr>
+                <tr>
+                    <td><center>2019-Now</center></td>
+                    <td><center>Bachelor</center></td>
+                    <td>Sepuluh Nopember Institute of Technology</td>
+                    <td>Informatics Engineering</td>
+                </tr>
+            </table>
+        </section>
+        <section id="kontak">
+            <table>
+                <tr >
+                    <th class="title" colspan="4"><center>My Contact</center></th>
+                </tr>
+                <tr>
+                    <th>No. Telp</th>
+                    <td><a class="even" href="tel:+6281553006438" target="_blank" rel="noopener noreferrer">+62 81553006438</a></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><a class="odd" href="mailto:vyrafania@gmail.com" target="_blank" rel="noopener noreferrer">vyrafania@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <th>Line</th>
+                    <td><a class="even" href="https://line.me/ti/p/~vyrafania" target="_blank" rel="noopener noreferrer">vyrafania</a></td>
+                </tr>
+                <tr>
+                    <th>Instagram</th>
+                    <td><a class="odd" href="https://www.instagram.com/vyrafaniaa/" target="_blank" rel="noopener noreferrer">@vyrafaniaa</a></td>
+                </tr>
+                <tr>
+                    <th>Twitter</th>
+                    <td><a class="even" href="https://twitter.com/vyrafania" target="_blank" rel="noopener noreferrer">@vyrafania</a></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <section id="foot">
+            <hr color="white" noshade>
+            <p align="center">
+                <small>&#169; 2021</small>
+            </p>
+        </section>
+    </footer>
+</body>
+</html>
